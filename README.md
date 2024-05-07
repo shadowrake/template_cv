@@ -1,11 +1,11 @@
 # Template for Website CV 
-Frameworks used: Tailwind and Next.js.
+Frameworks used: Next.js and TailwindCSS
 
 ## Files you need to change
 
 1. layout.tsx in root(app)
 2. profile.tsx in components
-3. experience in components
+3. experience.tsx in components
 4. page.tsx in root (app)
 5. footer.tsx in components
 
