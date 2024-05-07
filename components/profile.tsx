@@ -7,6 +7,8 @@ const profile = [
         'https://imagedelivery.net/x1uwLjrNlt5Jirxyo_Zhlg/436bf1df-a57c-48c2-b9be-d16937a01100/public',
       github: '#',
       linkedin: '#',
+      desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus rutrum eros, ut venenatis quam bibendum vel.Aliquam cursus felis sit amet ante tincidunt viverra. Phasellus ipsum dui, varius eget tincidunt eget, viverra sit amet massa. Praesent tempor libero at tincidunt rutrum. Pellentesque accumsan erat eros, nec consectetur sem aliquam vel. Donec suscipit justo et elit pretium, eget imperdiet sem accumsan. Nunc sodales mollis massa, a tincidunt nulla consequat a. Nam condimentum condimentum congue. Aenean finibus, erat eu faucibus blandit, sapien augue elementum ligula, sit amet auctor dui nisl quis turpis.",
+      age: "Alder: 25",
     },
   ]
 
@@ -45,15 +47,16 @@ const profile = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <p className="text-base font-semibold leading-7 text-red-800">Om meg</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hvem er jeg?</h1>
-          <div className="mx-auto max-w-2xl">
+          <div className="mx-auto max-w-3xl">
             <ul
             role="list"
-            className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3"
+            className="mx-auto mt-10 grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3"
           >
             {profile.map((person) => (
               <li key={person.name}>
                 <img className="aspect-[2/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
+                <p className="mt- text-sm font-semibold leading-8 tracking-tight text-gray-900">{person.age}</p>
+                <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <div className="flex">
                 {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500 items-center">
@@ -65,9 +68,10 @@ const profile = [
                 </li>
                 ))}
           </ul>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus rutrum eros, ut venenatis quam bibendum vel. Aliquam cursus felis sit amet ante tincidunt viverra. Phasellus ipsum dui, varius eget tincidunt eget, viverra sit amet massa. Praesent tempor libero at tincidunt rutrum. Pellentesque accumsan erat eros, nec consectetur sem aliquam vel. Donec suscipit justo et elit pretium, eget imperdiet sem accumsan. Nunc sodales mollis massa, a tincidunt nulla consequat a. Nam condimentum condimentum congue. Aenean finibus, erat eu faucibus blandit, sapien augue elementum ligula, sit amet auctor dui nisl quis turpis.
-            </p>
+
+              {profile.map((person) => (
+                <p key={person.desc} className="mt-6 text-lg leading-8 text-gray-600">{person.desc}</p>
+              ))}
           </div>
           
         </div>

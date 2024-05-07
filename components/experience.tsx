@@ -40,7 +40,7 @@ const other = [
     name: 'Something',
     date: 'Date here',
     description: 'Description here'
-  }
+  },
 ]
 
 const interests = [
