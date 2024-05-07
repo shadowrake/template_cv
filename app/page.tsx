@@ -1,6 +1,5 @@
 "use client";
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline' 
 import Profile from '../components/profile'
 import Experince from '../components/experience'
 import Footer from '../components/footer'
