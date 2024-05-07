@@ -5,8 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  // Add your metadata here
+  // title for the browser tab
   title: "Template cv site",
+  // description for search engines, describes the content of the page
   description: "Template cv site, template created by Herman Kristiansen",
+  // keywords for search engines, keywords are used to find the page
   keywords: ["Template", "cv", "site", "Herman Kristiansen"],
 };
 
