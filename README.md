@@ -25,4 +25,4 @@ Frameworks used: Next.js and TailwindCSS
 6. After the build is done for to settings -> functions -> Compatibility flags -> configure production flags -> write nodejs_compat -> save
 7. Click on custom domain and setup domain -> write in the domain you bought in step 2
 8. Then click on activate and you are done!
-9. If you want to have www. infront of your domain go to website tab in cloudflare -> click on your domain -> DNS -> add record -> choose type: CNAME name:www target:[website address in the dns record with the @ tag] -> save (optional)
+9. If you want to have www infront of your domain go to website tab in cloudflare -> click on your domain -> DNS -> add record -> choose type: CNAME name:www target:[website address in the dns record with the @ tag] -> save (optional)
