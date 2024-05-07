@@ -43,7 +43,7 @@ const soMe = [
             </div>
             <div className="mt-8 md:order-1 md:mt-0">
               <p className="text-center text-xs leading-5 text-gray-500">
-                &copy;2024 "Site holder here" All rights reserved | <a href="https://hermankristiansen.no">Site template by Herman Kristiansen.</a>
+                &copy;2024 &quot;Site holder here&quot; All rights reserved | <a href="https://hermankristiansen.no">Site template by Herman Kristiansen.</a>
               </p>
             </div>
           </div>
