@@ -1,5 +1,6 @@
 import {BriefcaseIcon, BoltIcon, WrenchScrewdriverIcon, LanguageIcon , BeakerIcon, AcademicCapIcon} from '@heroicons/react/20/solid'
 
+//Put your education experience here
 const edu = [
   {
     name: 'School name',
@@ -8,6 +9,7 @@ const edu = [
   }
 ]
 
+//Put your work experience here
 const work = [
   {
     name: 'Work experience 1',
@@ -16,6 +18,7 @@ const work = [
   }
 ]
 
+//Put your skills here
 const skills = [
   {
     name: 'Example - Example - Example - Example - Example'
@@ -35,6 +38,7 @@ const skills = [
 
 ]
 
+//Put other experiences here
 const other = [
   {
     name: 'Something',
@@ -43,6 +47,7 @@ const other = [
   },
 ]
 
+//Put your interests here
 const interests = [
   {
     name: 'Example - Example - Example - Example'
@@ -52,6 +57,7 @@ const interests = [
   }
 ]
 
+//Put your languages here and your proficiency level here
 const languages = [
   {
     name: 'Language 1', 
@@ -67,6 +73,9 @@ export default function Experince() {
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Education</h1>
         <div className="mt-10 max-w-2xl">
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            {
+              //Education list
+            }
             {edu.map((person) => (
               <li className='flex gap-x-3' key={person.name}>
                 <AcademicCapIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />
@@ -84,6 +93,9 @@ export default function Experince() {
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Work experience</h1>
         <div className="mt-10 max-w-2xl">
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            {
+              //Work list
+            }
             {work.map((person) => (
                 <li className='flex gap-x-3' key={person.name}>
                   <BriefcaseIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />
@@ -98,8 +110,11 @@ export default function Experince() {
           </div>
         <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Skills</h1>
         <div className="mt-10 max-w-2xl">
+          
           <ul role="list" className=" max-w-xl space-y-8 text-gray-600">
-
+            {
+              //Skill list
+            }
             {skills.map((person) => (
                 <li className='flex gap-x-3' key={person.name}>
                     <BeakerIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />
@@ -114,6 +129,9 @@ export default function Experince() {
           <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Other experiences</h1>
           <div className="mt-10 max-w-2xl">
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            {
+              //Other experiences list
+            }
             {other.map((person) => (
                 <li className='flex gap-x-3' key={person.name}>
                     <WrenchScrewdriverIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />
@@ -129,6 +147,9 @@ export default function Experince() {
           <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Interests</h1>
           <div className="mt-10 max-w-2xl">
           <ul role="list" className=" max-w-xl space-y-8 text-gray-600">
+            {
+              //Interests list
+            }
             {interests.map((person) => (
                 <li className='flex gap-x-3' key={person.name}>
                     <BoltIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />
@@ -142,6 +163,9 @@ export default function Experince() {
           <h1 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Languages</h1>
           <div className=" max-w-2xl">
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
+            {
+              //Languages list
+            }
             {languages.map((person) => (
                 <li className='flex gap-x-3' key={person.name}>
                     <LanguageIcon className="mt-1 h-5 w-5 flex-none text-red-800" aria-hidden="true" />

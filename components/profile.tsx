@@ -1,5 +1,6 @@
 import { JSX, SVGProps } from "react"
 
+//Change this info for your profile
 const profile = [
     {
       name: 'Navn',
@@ -12,7 +13,8 @@ const profile = [
     },
   ]
 
-  const navigation = [
+  //Put your social media links here
+  const soMe = [
     {
       name: 'GitHub',
       href: '#',
@@ -52,13 +54,16 @@ const profile = [
             role="list"
             className="mx-auto mt-10 grid max-w-3xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3"
           >
+            {
+              //profile img, name, age and social media links
+            }
             {profile.map((person) => (
               <li key={person.name}>
                 <img className="aspect-[2/2] w-full rounded-2xl object-cover" src={person.imageUrl} alt="" />
                 <p className="mt- text-sm font-semibold leading-8 tracking-tight text-gray-900">{person.age}</p>
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <div className="flex">
-                {navigation.map((item) => (
+                {soMe.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500 items-center">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -68,7 +73,9 @@ const profile = [
                 </li>
                 ))}
           </ul>
-
+              {
+                //Profile description
+              }
               {profile.map((person) => (
                 <p key={person.desc} className="mt-6 text-lg leading-8 text-gray-600">{person.desc}</p>
               ))}
