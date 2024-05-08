@@ -8,6 +8,7 @@ Frameworks used: Next.js and TailwindCSS
 3. experience.tsx in components
 4. page.tsx in root (app)
 5. footer.tsx in components
+6. Package in root(app) change name and version number if semantic reasons :)
 
 ## Commands for termianl
 
