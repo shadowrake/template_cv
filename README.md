@@ -8,7 +8,8 @@ Frameworks used: Next.js and TailwindCSS
 3. experience.tsx in components
 4. page.tsx in root (app)
 5. footer.tsx in components
-6. Package in root(app) change name and version number if semantic reasons :)
+6. package in root(app) change name and version number if semantic reasons
+7. replace the favicon, how you do it: delete the current favicon.ico, find an image that you want, rename it to favicon.ico and put it in the root folder (app) 
 
 ## Commands for termianl
 
