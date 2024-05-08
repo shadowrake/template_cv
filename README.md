@@ -1,5 +1,12 @@
 # Template for Website CV 
 Frameworks used: Next.js and TailwindCSS
+### Pictures of the template site
+#### Eksample picture 1
+![Picture one](https://imagedelivery.net/x1uwLjrNlt5Jirxyo_Zhlg/ec19d10c-0f9f-4db8-089c-c56edfb2e100/public)
+#### Eksample picture 2
+![Picture two](https://imagedelivery.net/x1uwLjrNlt5Jirxyo_Zhlg/9641123d-5be5-4d74-d7e7-5e286275d200/public)
+#### Eksample picture 3
+![Picture three](https://imagedelivery.net/x1uwLjrNlt5Jirxyo_Zhlg/acd61aaa-12d8-4163-91d5-8ff78c913800/public)
 
 ## Files you need to change
 
