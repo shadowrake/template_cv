@@ -18,7 +18,7 @@ Frameworks used: Next.js and TailwindCSS
 6. package in root(app) change name and version number if semantic reasons
 7. replace the favicon, how you do it: delete the current favicon.ico, find an image that you want, rename it to favicon.ico and put it in the root folder (app) 
 
-## Commands for termianl
+## Commands for terminal
 
 1. npm i / npm install
 2. npm run dev (to view it in a development environment)
@@ -27,7 +27,7 @@ Frameworks used: Next.js and TailwindCSS
 ## Deployment on Cloudflare
 
 1. Upload site to github
-2. Buy a domin on cloudflare
+2. Buy a domain on cloudflare
 3. Go to workers and pages
 4. Click on pages and connect to git
 5. Choose preset with next.js
